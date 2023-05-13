@@ -3,7 +3,7 @@ import { defineConfig } from "vite";
 
 export default defineConfig(({ command, mode, ssrBuild }) => {
   return {
-    base: '/test-vite-build', // 开发或生产环境服务的公共基础路径; 类型： string; 默认：'/';
+    base: '/', // 开发或生产环境服务的公共基础路径; 类型： string; 默认：'/';
     build: {
       rollupOptions: {
         input: {
