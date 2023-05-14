@@ -9,9 +9,6 @@ export default defineConfig(({ command, mode, ssrBuild }) => {
         input: {
           main: resolve(__dirname, 'index.html'),
           nested: resolve(__dirname, 'nested/index.html')
-        },
-        output: {
-          // inlineDynamicImports: true
         }
       },
       // 库模式
